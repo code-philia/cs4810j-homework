@@ -40,7 +40,7 @@ uv run install.py
 ```ini
 OPENAI_API_KEY=sk-or-...
 OPENAI_BASE_URL=https://openrouter.ai/api/v1
-LLM_MODEL=deepseek/deepseek-v4.1-flash
+LLM_MODEL=deepseek-flash
 LLM_REASONING_EFFORT=low
 ```
 
