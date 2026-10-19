@@ -25,7 +25,7 @@ You need:
 
 - [uv](https://docs.astral.sh/uv/getting-started/installation/), which installs Python and the packages for you;
 - **Docker**: [Docker Desktop](https://www.docker.com/products/docker-desktop/) on Windows and macOS, Docker Engine on Linux. Start it before you continue;
-- an API key for an OpenAI-compatible endpoint whose model accepts images, for example [OpenRouter](https://openrouter.ai/).
+- an API key for an OpenAI-compatible endpoint whose model accepts images, for example our class-provided endpoints and keys or [OpenRouter](https://openrouter.ai/).
 
 The commands are the same on Windows, macOS and Linux:
 
@@ -39,7 +39,7 @@ uv run install.py
 
 ```ini
 OPENAI_API_KEY=sk-or-...
-OPENAI_BASE_URL=https://openrouter.ai/api/v1
+OPENAI_BASE_URL=https://api.arc-bench.com/v1
 LLM_MODEL=deepseek-flash
 LLM_REASONING_EFFORT=low
 ```
